@@ -1,6 +1,7 @@
 import Image from "next/image";
 import brand from "@/public/1bg.png";
 
+
 const Header = () => {
   return (
     <>
