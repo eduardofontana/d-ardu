@@ -41,7 +41,8 @@ const Features = () => {
                 informações pessoais e empresariais contra ameaças cibernéticas.
                 Garantir uma forte proteção online é fundamental para preservar
                 a privacidade e evitar prejuízos financeiros e reputacionais.
-                Saiba mais sobre seus direitos e deveres conhecendo a LGPD.
+                Saiba mais sobre seus direitos e deveres conhecendo a Lei Geral
+                de Proteção de Dados Pessoais (LGPD)
               </p>
               <Link
                 href={"/"}
