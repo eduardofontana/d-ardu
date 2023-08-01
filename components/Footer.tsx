@@ -1,17 +1,28 @@
+import Image from "next/image";
+import loggo from "@/public/2.png";
+
 const Footer = () => {
   return (
     <>
-      <footer className="text-white body-font bg-gray-900">
+      <footer className="text-gray-600 body-font bg-gray-900">
         <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-          <p className="text-sm text-indigo-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-            © 2023 —
+          <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <Image
+              className="md:ml-auto md:mr-auto flex flex-wrap items-center justify-center mt-5"
+              src={loggo}
+              width={50}
+              height={50}
+              alt={"loggo"}
+            />
+          </a>
+          <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
             <a
-              href="/"
-              className="text-indigo-500 ml-1"
+              href="https://twitter.com/knyttneve"
+              className="text-white md:ml-auto md:mr-auto flex flex-wrap items-center justify-center mt-6"
               rel="noopener noreferrer"
               target="_blank"
             >
-              @d-ardu
+              @d-ardu - All Rights Reserved 2023
             </a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
@@ -30,8 +41,8 @@ const Footer = () => {
             <a className="ml-3 text-indigo-500">
               <svg
                 fill="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
+                stroke-linecap="round"
+                stroke-linejoin="round"
                 stroke-width="2"
                 className="w-5 h-5"
                 viewBox="0 0 24 24"
@@ -43,8 +54,8 @@ const Footer = () => {
               <svg
                 fill="none"
                 stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
+                stroke-linecap="round"
+                stroke-linejoin="round"
                 stroke-width="2"
                 className="w-5 h-5"
                 viewBox="0 0 24 24"
@@ -57,8 +68,8 @@ const Footer = () => {
               <svg
                 fill="currentColor"
                 stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
+                stroke-linecap="round"
+                stroke-linejoin="round"
                 stroke-width="0"
                 className="w-5 h-5"
                 viewBox="0 0 24 24"

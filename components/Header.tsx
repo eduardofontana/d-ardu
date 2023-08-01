@@ -20,7 +20,7 @@ const Header = () => {
         style={{
           borderBottom: "1px solid #ffffff", /* Estilo da linha - pode ajustar conforme necessário */
           width: "100%",
-          margin: "1px 5px",
+          margin: "1px 5px auto",
         }}
       ></div>
       </header>
